@@ -1,10 +1,10 @@
-# Smart-Campus: Enterprise-IoT-Network-Design
+# Smart-Campus: IoT-Network-Design
 
 ## Objective
 
 **Status:** Completed 
 
-This project involves the design and simulation of an enterprise-grade Smart Campus Network using a Hierarchical Star Topology. Moving beyond simple connectivity, the architecture features a Distributed Server Farm that isolates critical services (DNS, DHCP, IoT) from user traffic to ensure high availability.
+This project involves the design and simulation of a Smart Campus Network using a Hierarchical Star Topology. Moving beyond simple connectivity, the architecture features a Distributed Server Farm that isolates critical services (DNS, DHCP, IoT) from user traffic to ensure high availability.
 
 The system integrates Zonal Wireless Gateways to segment traffic across three distinct operational zones: Academic (Lecture Hall), Environmental (Smart Library), and Administrative (Staff Quarters). A key innovation is the implementation of a local Domain Name System (DNS), abstracting complex IP management into a user-friendly domain `(iotserver.com)` for centralized network control.
 

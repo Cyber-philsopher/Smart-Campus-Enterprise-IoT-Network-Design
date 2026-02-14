@@ -4,7 +4,7 @@
 
 **Status:** Completed 
 
-For this proeject, I take the role of an **IoT Cloud Networking Specialist**, to create a smart digital university campus network that leverages IoT, edge devices, and cloud resources to enhance teaching, learning, safety, and sustainability.
+For this project, I take the role of an **IoT Cloud Networking Specialist**, to create a smart digital university campus network that leverages IoT, edge devices, and cloud resources to enhance teaching, learning, safety, and sustainability.
 
 The university’s vision is to create a connected, sustainable, and student-friendly environment where digital services are integrated into campus life. My role involves designing and simulating the IoT infrastructure using Cisco Packet Tracer, while also documenting how network and cloud resources are orchestrated to support reliable and secure services.
 

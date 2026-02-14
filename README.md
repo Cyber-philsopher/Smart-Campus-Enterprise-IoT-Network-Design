@@ -4,6 +4,10 @@
 
 **Status:** Completed 
 
+For this proeject, I take the role of an **IoT Cloud Networking Specialist**, to create a smart digital university campus network that leverages IoT, edge devices, and cloud resources to enhance teaching, learning, safety, and sustainability.
+
+The university’s vision is to create a connected, sustainable, and student-friendly environment where digital services are integrated into campus life. My role involves designing and simulating the IoT infrastructure using Cisco Packet Tracer, while also documenting how network and cloud resources are orchestrated to support reliable and secure services.
+
 This project involves the design and simulation of a Smart Campus Network using a Hierarchical Star Topology. Moving beyond simple connectivity, the architecture features a Distributed Server Farm that isolates critical services (DNS, DHCP, IoT) from user traffic to ensure high availability.
 
 The system integrates Zonal Wireless Gateways to segment traffic across three distinct operational zones: Academic (Lecture Hall), Environmental (Smart Library), and Administrative (Staff Quarters). A key innovation is the implementation of a local Domain Name System (DNS), abstracting complex IP management into a user-friendly domain `(iotserver.com)` for centralized network control.

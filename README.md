@@ -1,4 +1,4 @@
-# Smart-Campus: IoT-Network-Design
+# Smart-Campus: IoT-Network Design
 
 ## Objective
 

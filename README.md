@@ -65,6 +65,28 @@ Implemented specific automation scenarios using Microcontroller Units (MCUs) pro
 
 - Access Control: Integrated RFID Readers and Siren Actuators to secure physical entry points.
 
+#### IoT Automation Logic (Code Snippet)
+The intelligence of the system relies on MCU programming (JavaScript/Python). Below is an example of the logic used for the Smart Library Environmental Control, demonstrating the handling of analog sensor inputs:
+
+```JavaScript
+// Logic for Environmental MCU
+function checkAirQuality() {
+    var co2Level = analogRead(A0); // Read CO2 Sensor
+    var smokeLevel = analogRead(A1); // Read Smoke Sensor
+    var threshold = 500; 
+
+    // Cross-Zone Safety Logic
+    if (co2Level > threshold || smokeLevel > threshold) {
+        digitalWrite(D0, HIGH); // Activate Ventilator Fan
+        digitalWrite(D1, HIGH); // Activate Air Cooler
+        customWrite(0, "HAZARD DETECTED: AIR QUALITY CRITICAL");
+    } else {
+        digitalWrite(D0, LOW);
+        digitalWrite(D1, LOW);
+    }
+}
+```
+
 ### Step 4: Security Implementation & Traffic Segmentation
 Secured the network edge and optimized traffic flow.
 
